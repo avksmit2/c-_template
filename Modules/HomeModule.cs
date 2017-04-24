@@ -1,7 +1,6 @@
 using Nancy;
-using MadLibs.Objects;
 
-namespace MadLibs
+namespace Template
 {
   public class HomeModule : NancyModule
   {
