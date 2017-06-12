@@ -5,7 +5,7 @@ using Nancy;
 using Nancy.Owin;
 using Nancy.ViewEngines.Razor;
 
-namespace Template
+namespace template
 {
   public class Startup
   {
@@ -37,5 +37,9 @@ namespace Template
     {
       get { return false; }
     }
+  }
+  public static class DBConfiguration
+  {
+    public static string ConnectionString = "Data Source=(localdb)\\mssqllocaldb;Initial Catalog=template;Integrated Security=SSPI;";
   }
 }
